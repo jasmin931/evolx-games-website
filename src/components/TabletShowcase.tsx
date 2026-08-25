@@ -1,13 +1,15 @@
+import Dice from './Dice'
+
 export default function TabletShowcase() {
   return (
     <section className="tablet-section">
       <div className="tablet-copy">
         <span className="kicker">02 / GET IN THE GAME</span>
-        <h2>ONE BOARD.<br /><i>ENDLESS</i><br />MAYHEM.</h2>
+        <h2> MADE FOR<br /><i><span>THE WAY YOU PLAY.</span></i></h2>
         <p>
-          Ludaro turns the familiar board-game roll into a tactical adventure.
-          Stack cards, hit special tiles, dodge enemies and chase the perfect run.
-        </p>
+  From <strong>PC to mobile, tablet to streaming</strong> —
+  EvolX is built to bring the same game, the same chaos, everywhere you play.
+</p>
         <div className="stat-row">
           <div><strong>∞</strong><span>WAYS TO PLAY</span></div>
           <div><strong>100%</strong><span>CHAOTIC</span></div>
@@ -17,17 +19,15 @@ export default function TabletShowcase() {
 
       <div className="tablet-stage">
         <div className="tablet-halo" />
-        <div className="tablet-device">
-          <div className="tablet-camera" />
-          <div className="tablet-screen">
-            <img
-              src="/assets/a_wide_landscape_tablet_screen_mockup_screensho.png"
+        <img
+              src="/assets/device-experience.png"
               alt="Ludaro game on a landscape tablet"
             />
-          </div>
-        </div>
-        <div className="floating-die die-one">6</div>
-        <div className="floating-die die-two">2</div>
+        {/* <div className="">6</div> */}
+                    <div className="studio-dice floating-die die-one "><Dice size="sm" /></div>
+                            <div className="floating-die die-two "><Dice size="sm" /></div>
+
+        {/* <div className="">2</div> */}
         <div className="floating-star">✦</div>
       </div>
     </section>

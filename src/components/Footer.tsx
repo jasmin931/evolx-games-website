@@ -3,15 +3,17 @@ export default function Footer() {
     <footer className="footer" id="contact">
       <div className="footer-top">
         <div>
-          <a className="brand footer-brand" href="#">
-            <span className="brand-mark">X</span>
-            <span>EVOL<span>X</span></span>
-          </a>
-          <h2>LET'S MAKE<br /><i>SOMETHING FUN.</i></h2>
+             <a className="brand footer-brand" href="#" aria-label="EvolX home">
+        <span className="brand-logo-wrap">
+          <img src="/assets/evolx-logo.png" alt="EvolX Games" className="brand-logo" />
+          <span className="brand-logo-spark">✦</span>
+        </span>
+      </a>
+          <h2>GET READY<br /><i>TO PLAY.</i></h2>
         </div>
         <div className="footer-links">
           <div><span>EXPLORE</span><a href="#games">Games</a><a href="#spirits">Spirit Deck</a><a href="#studio">About</a></div>
-          <div><span>CONNECT</span><a href="mailto:hello@evolxgames.com">Email</a><a href="#">Instagram</a><a href="#">LinkedIn</a></div>
+          <div><span>CONNECT</span><a href="mailto:hello@evolxgames.com">Email</a><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="https://discord.gg/cXK7jSq4n">Discord</a></div>
         </div>
       </div>
       <div className="footer-bottom">

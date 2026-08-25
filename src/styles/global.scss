@@ -115,7 +115,7 @@ img { display: block; max-width: 100%; }
 .tablet-screen { height:100%; overflow:hidden; border-radius:28px; background:#08050d; box-shadow:inset 0 0 0 2px #15151b; }
 .tablet-screen img { width:100%; height:100%; object-fit:cover; }
 .tablet-camera { position:absolute; top:7px; left:50%; width:55px; height:11px; transform:translateX(-50%); border-radius:0 0 10px 10px; background:#050505; z-index:4; }
-.floating-die { position:absolute; display:grid; place-items:center; width:64px; height:64px; border-radius:15px; font-family:'Archivo Black'; font-size:24px; background:var(--yellow); color:var(--ink); box-shadow:0 12px 25px rgba(0,0,0,.35); animation:float 3.5s ease-in-out infinite; }
+.floating-die { position:absolute; display:grid; place-items:center; animation:float 3.5s ease-in-out infinite; }
 .die-one { right:3%; top:10%; transform:rotate(13deg); }.die-two{left:5%;bottom:12%;transform:rotate(-15deg);animation-delay:-1s}
 .floating-star { position:absolute; right:9%; bottom:14%; font-size:45px; color:var(--pink); text-shadow:0 0 20px #ff477c; animation:spin 7s linear infinite; }
 
@@ -245,3 +245,4 @@ img { display: block; max-width: 100%; }
   .spirit-card { flex-basis:var(--spirit-card-width); }
   .carousel-arrow { width:40px; height:40px; flex-basis:40px; font-size:20px; }
 }
+

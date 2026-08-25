@@ -26,7 +26,12 @@ export default function Nav() {
         <button onClick={() => go('studio')}>Studio</button>
         <button onClick={() => go('team')}>Team</button>
         <button onClick={() => go('contact')}>Contact</button>
-      </nav>
+        <button
+          onClick={() => window.open('https://discord.gg/cXK7jSq4n', '_blank')}
+        >
+          Discord
+        </button>     
+         </nav>
 
       <button className="nav-cta" onClick={() => go('games')}>PLAY NOW <span>↗</span></button>
     </header>

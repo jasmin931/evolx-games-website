@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import '../styles/team.scss'
+import Dice from './Dice';
+import '../styles/team.scss';
 
 type TeamMember = {
   name: string
@@ -11,8 +12,8 @@ type TeamMember = {
 }
 
 const team: TeamMember[] = [
-  { name: 'THE VISIONARY', role: 'Creative Director', tagline: 'Turns wild ideas into worlds worth getting lost in.', number: '01', image: '/assets/team/AmitPicture.png', accent: 'pink' },
-  { name: 'THE GAME MAKER', role: 'Game Designer', tagline: 'Builds the rules, loops and “one more turn” moments.', number: '02', image: '/assets/team/EkalavyaPicture.png', accent: 'cyan' },
+  { name: 'THE VISIONARY', role: 'Founder/CEO', tagline: 'Turns wild ideas into worlds worth getting lost in.', number: '01', image: '/assets/team/AmitPicture.png', accent: 'pink' },
+  { name: 'THE GAME MAKER', role: 'Creative Director', tagline: 'Builds the rules, loops and “one more turn” moments.', number: '02', image: '/assets/team/EkalavyaPicture.png', accent: 'cyan' },
   { name: 'THE ART ALCHEMIST', role: 'Game Artist', tagline: 'Makes every pixel feel like it has a little bit of magic.', number: '03', image: '/assets/team/altaf.png', accent: 'orange' },
   { name: 'THE CODE WIZARD', role: 'Game Developer', tagline: 'Turns impossible ideas into smooth, playable chaos.', number: '04', image: '/assets/team/deepak.png', accent: 'lime' },
   { name: 'THE PEOPLE PERSON', role: 'Community Lead', tagline: 'Keeps the players close and the party getting louder.', number: '05', image: '/assets/team/vrinda.png', accent: 'violet' },
@@ -25,7 +26,9 @@ export default function Team() {
     <section className="team-section" id="team">
       <div className="team-bg-shape team-bg-shape--one" />
       <div className="team-bg-shape team-bg-shape--two" />
-      <div className="team-floating-die">5</div>
+      {/* <div className="">5</div> */}
+            <div className="studio-dice team-floating-die"><Dice size="sm" /></div>
+      
       <div className="team-stars" aria-hidden="true">✦　✧　✦　✧　✦</div>
 
       <div className="team-heading">
