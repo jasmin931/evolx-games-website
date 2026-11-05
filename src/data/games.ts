@@ -3,6 +3,7 @@ export type Game = {
   tag: string
   description: string
   image: string
+  link:string
   accent: 'gold' | 'pink' | 'violet'
 }
 
@@ -13,20 +14,23 @@ export const games: Game[] = [
     description: 'A chaotic board-run where every roll, card and encounter can change the run.',
     image: '/assets/a_highly_detailed_colorful_cartoon_game_ui_scene.png',
     accent: 'gold',
+    link: 'https://play.google.com/store/apps/details?id=com.evolxgames.ludaro&pcampaignid=web_share',
   },
   {
-    title: 'Spiritbound',
-    tag: 'CHARACTER COLLECTION',
-    description: 'Build a team of weird, wonderful spirits and turn every encounter into a story.',
+    title: 'MergeMons',
+    tag: '',
+    description: 'Discover magical creatures, merge and evolve them into powerful companions, and embark on an exciting adventure.',
+    image: '/assets/banner3.png',
+    accent: 'violet',
+    link: '',
+  },
+   {
+    title: 'Merge Flow Stories',
+    tag: 'MERGE PUZZLE ADVENTURE',
+    description: 'Merge shapes, solve puzzles, choose your path, and uncover a magical story adventure.',
     image: '/assets/a_wide_colorful_cartoon_fantasy_illustration_with.png',
     accent: 'pink',
-  },
-  {
-    title: 'The Next Run',
-    tag: 'COMING SOON',
-    description: 'New worlds, new rules and a fresh pile of dice. More chaos is on the way.',
-    image: '/assets/ChatGPT Image Aug 24, 2026, 12_30_34 PM.png',
-    accent: 'violet',
+    link: 'https://play.google.com/store/apps/details?id=com.evolxgames.mergeflowstory&pcampaignid=web_share',
   },
 ]
 

@@ -17,6 +17,10 @@ const team: TeamMember[] = [
   { name: 'THE ART ALCHEMIST', role: 'Game Artist', tagline: 'Makes every pixel feel like it has a little bit of magic.', number: '03', image: '/assets/team/altaf.png', accent: 'orange' },
   { name: 'THE CODE WIZARD', role: 'Game Developer', tagline: 'Turns impossible ideas into smooth, playable chaos.', number: '04', image: '/assets/team/deepak.png', accent: 'lime' },
   { name: 'THE PEOPLE PERSON', role: 'Community Lead', tagline: 'Keeps the players close and the party getting louder.', number: '05', image: '/assets/team/vrinda.png', accent: 'violet' },
+  { name: 'THE BUG HUNTER', role: 'QA Tester', tagline: 'Breaks the game so players can enjoy it without the bugs.', number: '06', image: '/assets/team/jasmin.jpg', accent: 'pink' },
+  { name: 'THE PIXEL PUSHER', role: '2D Artist', tagline: 'Turns wild ideas into characters with personality.', number: '07', image: '/assets/team/abhishek.jpg', accent: 'cyan' },
+  { name: 'THE VISUAL WIZARD', role: '2D Artist', tagline: 'Brings imagination to life, one pixel at a time.', number: '08', image: '/assets/team/spoorthi.jpg', accent: 'orange' },
+  { name: 'THE MOTION MAKER', role: 'Animator', tagline: 'Gives every character a little more life and attitude.', number: '09', image: '/assets/team/avijit.jpeg', accent: 'lime' },
 ]
 
 export default function Team() {
@@ -33,12 +37,14 @@ export default function Team() {
 
       <div className="team-heading">
         <div>
-          <span className="kicker">05 / THE CREW</span>
+          <span className="kicker">THE CREW</span>
           <h2>OUR<br /><i>TEAM.</i></h2>
         </div>
         <div className="team-intro">
           <p>Dreamers, builders and gamers making worlds where every roll has a story.</p>
-          <div className="team-count"><strong>05</strong><span>MINDS<br />BEHIND THE CHAOS</span></div>
+          <div className="team-count">
+            {/* <strong></strong> */}
+            <span>MINDS<br />BEHIND THE CHAOS</span></div>
         </div>
       </div>
 

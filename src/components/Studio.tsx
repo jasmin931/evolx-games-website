@@ -6,7 +6,7 @@ export default function Studio() {
       <div className="studio-bg" />
       <div className="studio-dice"><Dice size="lg" /></div>
       <div className="studio-content">
-        <span className="kicker">04 / ABOUT EVOLX</span>
+        <span className="kicker">ABOUT EVOLX</span>
         <h2>WE BUILD<br /><i>PLAYFUL<br />CHAOS.</i></h2>
         <p>
           EvolX is a game studio obsessed with the tiny moment when a player says:

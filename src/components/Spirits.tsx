@@ -25,10 +25,10 @@ export default function Spirits() {
     <section className="section spirits-section" id="spirits">
       <div className="section-heading">
         <div>
-          <span className="kicker">03 / SPIRIT DECK</span>
-          <h2>MEET THE<br /><i>WEIRDOS.</i></h2>
+          <span className="kicker">01 / THE CARD VAULT</span>
+          <h2>TRENDING<br /><i>CARDS.</i></h2>
         </div>
-        <p>Our worlds are powered by characters with personality. Collect them, learn their quirks and let them make your run unpredictable.</p>
+        <p>Meet the cards that change the game. Discover rare abilities, legendary characters and powerful spirits from across the EvolX universe. Collect your favourites. Build your strategy.</p>
       </div>
 
       <div className="spirit-carousel">

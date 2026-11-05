@@ -4,7 +4,7 @@ export default function TabletShowcase() {
   return (
     <section className="tablet-section">
       <div className="tablet-copy">
-        <span className="kicker">02 / GET IN THE GAME</span>
+        <span className="kicker">GET IN THE GAME</span>
         <h2> MADE FOR<br /><i><span>THE WAY YOU PLAY.</span></i></h2>
         <p>
   From <strong>PC to mobile, tablet to streaming</strong> —

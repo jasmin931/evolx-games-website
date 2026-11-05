@@ -5,7 +5,7 @@ export default function GameShowcase() {
     <section className="section games-section" id="games">
       <div className="section-heading">
         <div>
-          <span className="kicker">01 / OUR PLAYGROUND</span>
+          <span className="kicker">OUR PLAYGROUND</span>
           <h2>GAMES WITH<br /><i>TEETH.</i></h2>
         </div>
         <p>We mix accessible mechanics with surprising systems, expressive characters and a little bit of beautiful chaos.</p>
@@ -23,7 +23,15 @@ export default function GameShowcase() {
               <span className="game-tag">{game.tag}</span>
               <h3>{game.title}</h3>
               <p>{game.description}</p>
-              <button>VIEW GAME <span>↗</span></button>
+             <a
+              href={index === 1 ? undefined : game.link}
+              target={index === 1 ? undefined : "_blank"}
+              rel={index === 1 ? undefined : "noopener noreferrer"}
+              className={`view-game-btn ${index === 1 ? "disabled" : ""}`}
+              onClick={index === 1 ? (e) => e.preventDefault() : undefined}
+            >
+              {index === 1 ? "COMING SOON" : "VIEW GAME"} <span>↗</span>
+            </a>
             </div>
           </article>
         ))}
